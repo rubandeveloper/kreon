@@ -1,0 +1,275 @@
+.carddetails-container-main{
+    
+    width: 100%;
+    min-height: 210vh;
+    max-width: var(--max-width);
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--side-padding);
+
+    padding-top: 10%;
+
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: bottom;
+
+    position: relative;
+}
+.carddetails-container-main .carddetails-content{
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+}
+.carddetails-container-main .carddetails-content-section{
+    width: 100%;
+    min-height: 30vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.carddetails-container-main .carddetails-content .carddetails-content-image{
+    
+    width: 35%;
+    height: 100%;
+
+    object-fit: contain;
+
+}
+
+.carddetails-container-main .carddetails-content .carddetails-content-card{
+
+    width: 45%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 70px 20px;
+
+
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    backdrop-filter: blur(15px);
+
+    position: relative;
+}
+
+
+
+.carddetails-container-main .carddetails-content .carddetails-content-card .card-logo{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+    width: 100px;
+    height: 100px;
+
+}
+.carddetails-container-main .carddetails-content .carddetails-content-card .card-label{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    z-index: 1;
+
+    font-size: 18.98px;
+    font-weight: 700;
+    line-height: 23.91px;
+    text-align: left;
+    
+
+    background: linear-gradient(97.38deg, #FFFFFF 5.74%, #999999 278.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.carddetails-container-main .carddetails-content .carddetails-content-card .card-title{
+
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40.8px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+    
+
+    background: linear-gradient(160.18deg, #FFFFFF 23.37%, #999999 76.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.carddetails-container-main .carddetails-content .carddetails-content-card .card-desc{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25.6px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+.carddetails-container-main .carddetails-content .carddetails-content-card .card-desc span{
+    font-weight: 500;
+}
+.carddetails-container-main .carddetails-content .carddetails-seperator-line{
+
+    height: 100%;
+}
+.carddetails-container-main .carddetails-content .carddetails-content-details{
+    min-width: 35%;
+    max-width: 45%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.carddetails-container-main .carddetails-content .carddetails-content-details .details-title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34.6px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+    background: linear-gradient(160.18deg, #FFFFFF 23.37%, #999999 76.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+
+    margin-top: -20px;
+}
+.carddetails-container-main .carddetails-content .carddetails-content-details .details-desc{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 28.8px;
+    text-align: left;
+
+    color: #C3C3C3;
+
+}
+.carddetails-container-main .carddetails-content .carddetails-content-details .details-desc span{
+    font-weight: 500;
+}
+
+.carddetails-container-main .carddetails-content .carddetails-content-details .details-item{
+    width: max-content;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    padding: 0 20px;
+    border-radius: 100px;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    background: radial-gradient(228.97% 751.57% at -44.38% -73.06%, rgba(255, 106, 0, 0.05) 0%, rgba(255, 106, 0, 0.05) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+.carddetails-container-main .carddetails-content .carddetails-content-details .details-item .value{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: center;
+
+    color: #FFFFFF;
+    white-space: nowrap;
+
+}
+.carddetails-container-main .carddetails-content .carddetails-content-details .details-item .value span{
+    opacity: .6;
+}
+.carddetails-container-main .carddetails-members-main{
+    width: 35%;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.carddetails-container-main .carddetails-members-main::-webkit-scrollbar{
+    width: 0;
+}
+.carddetails-container-main .carddetails-members-main .members-content{
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.carddetails-container-main .carddetails-members-main .members-content-section{
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.carddetails-container-main .carddetails-members-main .members-content-section .members-section-head{
+    width: max-content;
+    height: 50px;
+
+    padding: 0 20px;
+
+    border-radius: 1000px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    background: linear-gradient(225.45deg, #FFFFFF 28.88%, #999999 65.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.carddetails-container-main .carddetails-members-main .members-content-section .members-section-items{
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.carddetails-container-main .carddetails-members-main .members-content-section .members-section-item{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: left;
+
+    background: linear-gradient(230.26deg, #FFFFFF 40.25%, #999999 63.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.carddetails-container-main .carddetails-scroll_label{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    z-index: 1;
+
+    width: 100px;
+    height: 100px;
+
+    object-fit: contain;
+}

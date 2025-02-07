@@ -1,0 +1,189 @@
+
+
+.header-main{
+    width: 100%;
+    /* max-width: var(--max-width); */
+    height: var(--header-height);
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.header-main .header-content{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+ 
+    padding: var(--side-padding);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.header-main .header-logo{
+    width: max-content;
+    height: 100%;
+    background: #000;
+}
+.header-main .header-logo img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+.header-main .header-nav-items{
+    width: max-content;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 20px;
+
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(100px);
+
+    border: 1px solid rgba(201, 201, 201, 0.1);
+    /* border-image-source: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(201, 201, 201, 0) 53%, rgba(153, 153, 153, 0.1) 100%);   */
+}
+
+.header-main .header-nav-items .nav-item{
+    width: max-content;
+    height: 100%;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0 20px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+
+    color: var(--font-light-color) !important;
+
+    transition: all .25s;
+}
+
+.header-main .header-nav-items .nav-item:hover{
+    color: var(--font-color) !important;
+}
+.header-main .header-nav-items .active-nav-item{
+    color: var(--font-color) !important;
+}
+.header-main .header-nav-items .nav-item-underline{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #EAEAEA 24.9%, #B1B1B1 70.4%, rgba(153, 153, 153, 0) 100%);
+
+    transition: all .25s;
+
+}
+.header-main  .header-mobile-menu{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-main{
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(20px);
+    }
+    .header-main .header-content{
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .header-main  .header-mobile-menu{
+        display: flex;
+        cursor: pointer;
+
+        width: 30px;
+        height: 30px;
+    }
+    .header-main  .header-mobile-menu svg{
+        width: 100%;
+        height: 100%;
+    }
+    .header-main  .header-nav-items,
+    .header-main  .header-actions{
+        display: none;
+    }
+    .header-main .header-logo{
+        background: transparent;
+    }
+    .header-main .header-mobile-dropdown-main{
+        position: absolute;
+        top: 90px;
+        left: 0;
+        z-index: 90;
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        padding: 15px;
+    }
+    .header-main .bg-blocker{
+        width: 100%;
+        height: 100vh;
+
+        position: absolute;
+        top: 90px;
+        left: 0;
+        z-index: 1;
+        background: linear-gradient(180.23deg, rgba(13, 6, 2, 0) -102.59%, #0D0602 87.16%);
+    }
+    .header-main .header-mobile-dropdown-main .mobile-dropdown-menus{
+        width: 100%;
+        height: max-content;
+
+        z-index: 2;
+        background: rgba(23, 18, 15, 1);
+
+        border: 1px solid rgba(201, 201, 201, 0.1);
+        border-radius: 20px;
+
+        padding: 15px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-main .header-mobile-dropdown-main .mobile-dropdown-menu{
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: var(--font-light-color) !important;
+    }
+
+    
+    .header-main .header-mobile-dropdown-main .mobile-dropdown-menu:hover{
+        color: var(--font-color) !important;
+    }
+    .header-main .header-mobile-dropdown-main .mobile-dropdown-menu-active{
+        color: var(--font-color) !important;
+    }
+    .header-main  .mobile-actions button{
+        width: 100%;
+    }
+}

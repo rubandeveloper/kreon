@@ -1,0 +1,59 @@
+
+.button-main{
+    width: max-content;
+    height: 40px;
+    border-radius: 50px;
+    background: var(--button-border);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: var(--button-shadow);
+}
+.button-secondary{
+
+    background: linear-gradient(270.66deg, rgba(255, 255, 255, 0.2) 0.57%, #FFFFFF 50.02%, rgba(255, 255, 255, 0.2) 99.47%);
+    box-shadow: none;
+}
+
+
+
+.button-main .button-wrapper{
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: var(--bg-color);
+
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-main .button-content{
+    width: 100%;
+    height: 100%;
+
+    padding: 0 40px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(180deg, rgba(255, 110, 7, 0.5) 0%, rgba(255, 203, 166, 0.5) 155.36%);
+    border-radius: 50px;
+}
+
+.button-secondary .button-content{
+    background: radial-gradient(228.97% 751.57% at -44.38% -73.06%, rgba(255, 106, 0, 0.1) 0%, rgba(255, 106, 0, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    backdrop-filter: blur(100px)
+
+}
+
+.button-main .label{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.68px;
+    text-align: center;
+    white-space: nowrap;
+    color:  var(--font-color);
+}
