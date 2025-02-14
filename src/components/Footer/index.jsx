@@ -16,11 +16,11 @@ const Footer = () => {
     const [SubLinks, setSubLinks] = useState([
         {
             label: 'sachet portal',
-            url: ''
+            url: 'https://sachet.rbi.org.in/'
         },
         {
             label: 'RBI ombudsman scheme',
-            url: ''
+            url: 'https://rbi.org.in/Scripts/Complaints.aspx'
         },
         {
             label: 'Fair Practice Code of KFSL',
@@ -115,7 +115,7 @@ const Footer = () => {
                         </div>
                         <div className="details-card">
                             <div className="label">Type of registration with RBI</div>
-                            <div className="value">NonBanking Financial Company</div>
+                            <div className="value">Non-Banking Financial Company</div>
                         </div>
                     </div>
                 </div>

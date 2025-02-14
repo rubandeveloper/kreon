@@ -146,3 +146,78 @@ button{
         background-position-y: 7%;
     }
 }
+
+
+@media only screen and (max-width: 1000px) {
+    
+    .tablesection-container-main{
+        margin-top: 50px !important;
+        padding: 0 !important;
+    }
+
+    table {
+        overflow: hidden !important
+    }
+
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        margin: 0 0 1rem 0;
+    }
+
+
+
+    tbody tr:before {
+        counter-increment: my-sec-counter;
+        content: "";
+        /* background-color: #333; */
+        display: block;
+        height: 1px;
+    }
+
+
+    th{
+        border-radius: 0 !important;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        margin-right: 0%;
+        display: block !important;
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        box-sizing: border-box;
+
+        border-radius: 0 !important;
+    }
+
+    td:before {
+        font-weight: bold;
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        padding-left: 5px;
+    }
+
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+}

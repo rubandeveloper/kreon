@@ -22,12 +22,12 @@ const IntoSection = ({title, desc, mockup, mockupPosition, style={}}) => {
    
 
     return (
-        <div className='hero-container' 
+        <div className='hero-container about-hero-container' 
             style={{
                 backgroundImage: `url(${mockup})`,
                 backgroundPosition: 'top',
-                backgroundPositionY: '-35%',
-                height: '100vh',
+                backgroundPositionY: '-80%',
+                height: '80vh',
                 ...style
             }}
         >

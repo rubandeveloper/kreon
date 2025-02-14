@@ -204,7 +204,7 @@ const TableSection = () => {
                                     icon: Images.icons.mail,
                                     classes: 'td-align-center',
                                     label: `Email at`,
-                                    value: `nodalgreivanceofficer@stucred.com`,
+                                    value: `nodalgrievanceofficer@stucred.com`,
                                 }
                             ]
                         },

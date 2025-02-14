@@ -197,7 +197,21 @@
     backdrop-filter: blur(100px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50px;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
+.library-container-main .library-years-filter .filter-years::-webkit-scrollbar{
+    width: 0;
+    display: none;
+}
+
+.library-container-main .library-years-filter .filter-years-items{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .library-container-main .library-years-filter .filter-year{
     width: max-content;
     height: 80%;
@@ -286,4 +300,75 @@
 .library-container-main .library-records-container .records-item .icon svg{
     width: inherit;
     height: inherit;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .library-container-main .library-search-main{
+        width: 90%;
+        height: 50px;
+        
+    }
+    .library-container-main .library-search-main .search-input .search-input-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .library-container-main .library-content-wrapper{
+        flex-direction: column;
+        height: max-content;
+    }
+    .library-container-main .library-category-main{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 0 15px;
+        border: none;
+        background: none;
+    }
+    .library-container-main .library-category-main::-webkit-scrollbar{
+        width: 0;
+        display: none;
+    }
+    .library-container-main .library-category-main .category-items{
+        width: max-content;
+        flex-direction: row;
+    }
+    .library-container-main .library-category-main .category-item .item-label{
+        white-space: nowrap;
+    }
+    .library-container-main .library-records-main{
+        width: 100%;
+    }
+    .library-container-main .library-years-filter .filter-arrow-left, 
+    .library-container-main .library-years-filter .filter-arrow-right{
+        display: none;
+    }
+    .library-container-main .library-years-filter .filter-years{
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .library-container-main .library-years-filter .filter-years::-webkit-scrollbar{
+        width: 0;
+        display: none;
+    }
+    .library-container-main .library-years-filter .filter-year{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .library-container-main .library-records-container{
+        height: max-content;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .library-container-main .library-records-container .records-item .label{
+        font-size: 14px;
+    }
+    .library-container-main .library-records-container .records-item .icon{
+        width: 12px;
+        height: 12px;
+    }
 }

@@ -64,7 +64,7 @@ const ImageDetails = ({has_curve_bg=false}) => {
     return (
         <div className='carddetails-container-main' 
             style={{ 
-                minHeight: '150vh',
+                minHeight: '120vh',
                 paddingBottom: '5%', 
                 backgroundImage:has_curve_bg ? `url(${Images.curve_ring})` : null 
             }}

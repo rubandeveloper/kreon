@@ -73,14 +73,7 @@ const ContentSection = ({}) => {
         {
             label: 'https://smartodr.in/login',
             link: 'https://smartodr.in/login',
-        },
-        {
-            label: `
-                https://paytm.com/document/ir/online-dispute-resolution/fy1969-70/jan/<br />
-                SEBI_Master_Circular_On_Online_Dispute_Resloution_December_28_2023.pdf
-            `,
-            link: 'https://paytm.com/document/ir/online-dispute-resolution/fy1969-70/jan/SEBI_Master_Circular_On_Online_Dispute_Resloution_December_28_2023.pdf'
-        },
+        }
     ])
 
     return (
@@ -94,10 +87,10 @@ const ContentSection = ({}) => {
                         Officer and Nodal Officer for Law Enforcement Agencies.
                     </div>
                     <div className="label-item">
-                        <span className="label">Name</span>-Mrs. Vidyalakshmi Rajagopala
+                        <span className="label">Name</span>- Niharika Goyal
                     </div>
                     <div className="label-item">
-                        <span className="label">Designation</span>- Company Secretary and Compliance Office
+                        <span className="label">Designation</span>- Greviance Redressal Officer
                     </div>
                     <div className="icon-items">
                         <div className="icon-item">

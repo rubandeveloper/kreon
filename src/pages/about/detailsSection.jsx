@@ -17,7 +17,7 @@ const DetailsSection = () => {
         items: [
             {
                 icon: Images.icons.customer,
-                title: 'Customer-Centricity',
+                title: 'Customer-centric',
                 desc: `
                     Our customers are at the heart of everything we do. 
                     We strive to understand their unique needs and provide 
