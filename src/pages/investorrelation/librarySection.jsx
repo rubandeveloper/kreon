@@ -97,7 +97,7 @@ const LibrarySection = () => {
             icon: Icons.library.demat
         },
         {
-            id: 'loss',
+            id: 'loss_issue',
             label: 'Loss /issue of share certificates',
             icon: Icons.library.loss
         },
@@ -3153,157 +3153,577 @@ const LibrarySection = () => {
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
+            label: 'Postal Ballot Notice_11.03.2021.2021',
+            link: 'https://drive.google.com/file/d/1fn29pX4ufrJgg3qT5q66pChzv0KFSgyO/view?usp=drive_link',
+            category_id: 'postal',
             year: '2020-2021'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
+            label: 'Postal ballot outcome_13.04.2021.2021',
+            link: 'https://drive.google.com/file/d/1A18qyBw-cPOwXfT4devoQjWfIpozlN77/view?usp=drive_link',
+            category_id: 'postal',
             year: '2020-2021'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
+            label: 'Scrutinizer report_postal ballot_13.04.2021.2021',
+            link: 'https://drive.google.com/file/d/18eFThNg51mzmoPWMOfbk0YtPOQliNojD/view?usp=drive_link',
+            category_id: 'postal',
             year: '2020-2021'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
+            label: 'Addendum to Postal Ballot Notice dated 07.05.2021',
+            link: 'https://drive.google.com/file/d/1RMSl29O32ZSW_CYklI_GL18H0UTmnVNj/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2021-2022'
+        },
+        {
+            id: '1',
+            label: 'Notice_Postal ballot_07.05.2021',
+            link: 'https://drive.google.com/file/d/190CIwed6WmYU7Fguwd_5rgiUUnXWWji4/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2021-2022'
+        },
+        {
+            id: '1',
+            label: 'Outcome_Postal ballot_07.05.2021',
+            link: 'https://drive.google.com/file/d/1mmxv28njqLmJ5sli2VqGuVigB30yAAoP/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2021-2022'
+        },
+        {
+            id: '1',
+            label: `Scrutinizer's report_Postal Ballot Notice_07.05.2021`,
+            link: 'https://drive.google.com/file/d/1K1CH7fZwhnSq1NhnDg6Mx99zMkkr47-c/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2021-2022'
+        },
+        {
+            id: '1',
+            label: 'Intimation of Calender events for Postal ballot',
+            link: 'https://drive.google.com/file/d/1iCtcBGi6CpftHY65YZM6u74wJwTICIL0/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2022-2023'
+        },
+        {
+            id: '1',
+            label: 'Notice _Postal Ballot_15.03.2023',
+            link: 'https://drive.google.com/file/d/1I_Fr-TVvvlsjYJXCfqow-MefnxnEy9-y/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2022-2023'
+        },
+        {
+            id: '1',
+            label: `Voting results & Scrutinizer's report_15.03.2023`,
+            link: 'https://drive.google.com/file/d/1K6WVSunBjoO5b6yl-3ORT7Ud-FqHNZQw/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2022-2023'
+        },
+        {
+            id: '1',
+            label: 'Calender events Intimation_Postal Ballot',
+            link: 'https://drive.google.com/file/d/1y5U9b-MFID2GRQ48a9RCDeSYETA0Pm8Q/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2024-2025'
+        },
+        {
+            id: '1',
+            label: 'Notice_Postal Ballot_10.08.2024',
+            link: 'https://drive.google.com/file/d/1iozW--a58bwQwNADZFvt-z1rJzUmMjto/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2024-2025'
+        },
+        {
+            id: '1',
+            label: `Voting Results & Scrutinizer's report_12.09.2024`,
+            link: 'https://drive.google.com/file/d/1pUDTQYpwYQl44LBdYKQ1qqeL56sdDQTF/view?usp=drive_link',
+            category_id: 'postal',
+            year: '2024-2025'
+        },
+        {
+            id: '1',
+            label: '1_Reg 74(5)  Quarter ended_30.06.2019',
+            link: 'https://drive.google.com/file/d/1yHxXeaGnZwvRDHw_pRwg8Wg379JBIm9x/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2019-2020'
+        },
+        {
+            id: '1',
+            label: '2_Reg 74(5)  Quarter ended_30.09.2019',
+            link: 'https://drive.google.com/file/d/16oZ3qv44wbgtI1txj7VODKwAU5NYhiJV/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2019-2020'
+        },
+        {
+            id: '1',
+            label: '4_Reg 74(5) Quarter ended_31.03.2020',
+            link: 'https://drive.google.com/file/d/1Ng3VlxYcBt4t-c8tBZ7hINpNTF0EVNkd/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2019-2020'
+        },
+        {
+            id: '1',
+            label: '1_Reg 74(5)  Quarter ended_30.06.2020',
+            link: 'https://drive.google.com/file/d/1iz_mT3m-Mw5EQuLwcBI4DHXyhIGKi7n7/view?usp=drive_link',
+            category_id: 'demat',
             year: '2020-2021'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
+            label: '2_Reg 74(5)  Quarter ended_30.09.2020',
+            link: 'https://drive.google.com/file/d/18OVdfrOP1wYmDAyGVfd_gqQ4WTfDCX5P/view?usp=drive_link',
+            category_id: 'demat',
             year: '2020-2021'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
+            label: '3_Reg 74(5)  Quarter ended_31.12.2020',
+            link: 'https://drive.google.com/file/d/1-KWWKslek699hI0gLop6rLYp1K-RqrLR/view?usp=drive_link',
+            category_id: 'demat',
             year: '2020-2021'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
+            label: '4_Reg 74(5)  Quarter ended_31.03.2021',
+            link: 'https://drive.google.com/file/d/1d2CsWpcRk9f_K8EtB3NfrYQ4NBur3iaI/view?usp=drive_link',
+            category_id: 'demat',
             year: '2020-2021'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '1_Reg 74(5)  Quarter ended_30.06.2021',
+            link: 'https://drive.google.com/file/d/14yuF4RIAxSL3M6Q3AbZm7D9ky1pmViaM/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2021-2022'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '2_Reg 74(5)  Quarter ended_30.09.2021',
+            link: 'https://drive.google.com/file/d/1MnKKU5gT7fIpqbGMizebsDZIX3n8BIUR/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2021-2022'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '3_Reg 74(5)  Quarter ended_31.12.2021',
+            link: 'https://drive.google.com/file/d/177eTGcQg_OMCYK6_3DZ4VFieWs88hEq7/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2021-2022'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '4_Reg 74(5)  Quarter ended_31.03.2022',
+            link: 'https://drive.google.com/file/d/1WTCvyaewD8z_s4r-rl4L48VbRTfjcjP5/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2021-2022'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '1_Reg 74(5)  Quarter ended_30.06.2022',
+            link: 'https://drive.google.com/file/d/1zXmChOFatX5kRVQwKrvL2Jqt6C4Cojq7/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2022-2023'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '2_Reg 74(5)  Quarter ended_30.09.2022',
+            link: 'https://drive.google.com/file/d/1fyOODVB9UM0bMkn1ARbu09-Z71ZlBvcp/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2022-2023'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '3_Reg 74(5)  Quarter ended_31.12.2022',
+            link: 'https://drive.google.com/file/d/1eXuR7jkHArP2MMzFUD95OJvOakZTDrMY/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2022-2023'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '4_Reg 74(5)  Quarter ended_31.03.2023',
+            link: 'https://drive.google.com/file/d/1YTcOSYPlHeaMY8jhYY5LIpayYN03sI2c/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2022-2023'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '1_Reg 74(5)  Quarter ended_30.06.2023',
+            link: 'https://drive.google.com/file/d/11RDGdfqz2pqXIWbAjYaeAvQ8C5neqJb8/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2023-2024'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '2_Reg 74(5)  Quarter ended_30.09.2023',
+            link: 'https://drive.google.com/file/d/1gXpLbq1RK5asJMkQKjCBS6raFQ7yR-Jl/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2023-2024'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '3_Reg 74(5)  Quarter ended_31.12.2023',
+            link: 'https://drive.google.com/file/d/1HaVNJBo6SU69ieaXtTrKNX4fwhUgsm5S/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2023-2024'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '4_Reg 74(5)  Quarter ended_31.03.2024',
+            link: 'https://drive.google.com/file/d/1nUdCh-iQwDhf3hGEIKg5iH3Hu1Jd2WUk/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2023-2024'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '1_Reg 74(5)  Quarter ended_30.06.2024',
+            link: 'https://drive.google.com/file/d/1yyq2ZTFdJAcCh7C5QjmeZ1DST8yLMkOF/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2024-2025'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: '2_Reg 74(5)  Quarter ended_30.09.2024',
+            link: 'https://drive.google.com/file/d/1lpQu79OEEpVyrcYfHrbCUi11r-nerl71/view?usp=drive_link',
+            category_id: 'demat',
+            year: '2024-2025'
         },
         {
             id: '1',
-            label: 'word',
-            link: '',
-            category_id: 'share_holder_meeting',
-            year: '2020-2021'
+            label: 'LF 2114_Rajesh Jain - 190723-0065-264606',
+            link: 'https://drive.google.com/file/d/1_UQ_DFNPi-nexAtF-R3MwIpCvzqMzWcV/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 2114_Rajesh Jain - 250823-0001-267934',
+            link: 'https://drive.google.com/file/d/1AGYQlJzyrwpY6YY08yRVhQxhjLA0STOY/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 2114_Rajesh Jain - Bse intimation_certificate loss - 02114',
+            link: 'https://docs.google.com/document/d/14ABs-FNbCwSvcUrcf97xaBlguYi-z5pl/edit?usp=drive_link&ouid=115588786680372681840&rtpof=true&sd=true',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 2114_Rajesh Jain - Pre-Intimation-Inward-267934',
+            link: 'https://drive.google.com/file/d/1AVkNyekCmDcg30np_xg3fwy5Xdi4ABRR/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3042_LC Jain - 5475602',
+            link: 'https://drive.google.com/file/d/1lAh2u7Cg6Ww6sczm3v6EY7SQOR6cS9MY/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3042_LC Jain - Bse intimation_certificate loss',
+            link: 'https://docs.google.com/document/d/1sFB90ZfoVQTttOqkIvCaFjVJumUl9kEH/edit?usp=drive_link&ouid=115588786680372681840&rtpof=true&sd=true',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3042_LC Jain - Bse intimation_certificate loss',
+            link: 'https://drive.google.com/file/d/1FY6m0qAgix5MP6pPwIAK8XGAJ3lcvt56/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3042_LC Jain - FOLIO NO. 003042',
+            link: 'https://docs.google.com/document/d/1oGwyjYDqxrIXp4IZr5k5bMtUO8_HfHd1/edit?usp=drive_link&ouid=115588786680372681840&rtpof=true&sd=true',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - 111123-0028-283325',
+            link: 'https://drive.google.com/file/d/1XW93bYQmV_zoe-2pLKroMAKzsw9siRsz/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - 150224-0092-289886',
+            link: 'https://drive.google.com/file/d/1KQZvZd-mZcaQFG4vUQ7NrHQmFdepyzzN/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - 5966079',
+            link: 'https://drive.google.com/file/d/1Eb2wHEuUCsZBWQ50vT0Df2A0_2qV9A1d/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - Bse intimation_certificate loss',
+            link: 'https://docs.google.com/document/d/1ENNkl1FTNEbWySEEc9R5Quy6MLASvlr3/edit?usp=drive_link&ouid=115588786680372681840&rtpof=true&sd=true',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - Bse intimation_certificate loss',
+            link: 'https://drive.google.com/file/d/1FJ5Ug_71n03ILF5A3FYihw9tznApKJDX/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - CERTIFICATE NO. 0055932',
+            link: 'https://docs.google.com/document/d/1gx_Q6_RLJ8nzr7yBT4_hwk3wGEepF-7T/edit?usp=drive_link&ouid=115588786680372681840&rtpof=true&sd=true',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - Cover Letter',
+            link: 'https://docs.google.com/document/d/1oKCK6RYlUu2PQs0n8P_pMls2n1Y7yiAK/edit?usp=drive_link&ouid=115588786680372681840&rtpof=true&sd=true',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - Cover Letter',
+            link: 'https://drive.google.com/file/d/1S-SfP0bwy9ndD2Sw1Vv9b8r9NH24P2KK/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - Duplicate Certificate',
+            link: 'https://drive.google.com/file/d/19dEKGTF7fuE0weJLeLREa6h5m1qq9SY-/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - Kreon Finnancial Services Limited Mail - Fwd_ Duplicate issue_LF3413',
+            link: 'https://drive.google.com/file/d/1WI86COQEaxpaeffYSS9GWBmpkfuVBnnk/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - Pre-Intimation-Inward-266353',
+            link: 'https://drive.google.com/file/d/1LuJG7rH3myUKFzrp9mnY8dhZ_I_fTXiQ/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3413_Kishan Gopal Kadel - Sh holder letter_3413',
+            link: 'https://drive.google.com/file/d/1YUnMLgzc4Lhn0AEPjr7eZ9Yeai8cthvn/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - 003741_09.01.2024_Recd by Purva',
+            link: 'https://drive.google.com/file/d/14cMmzxI1MAw9HQfroc_PtGo4_d5WWQE-/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - 003741_Sep2023_Recd by Purva',
+            link: 'https://drive.google.com/file/d/1xBHV3fGOVVoMVBjXttsG8NZ2fwiTLfM2/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - 201223-0007-285770',
+            link: 'https://drive.google.com/file/d/1l-SxwZqSOH-tWfhnOYCBDSlzwGsXi8aU/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - 530139_21122023',
+            link: 'https://drive.google.com/file/d/1jhuHwwU0FPxLuwQnvyAQzd8gxaRw_Hyv/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - 6596906',
+            link: 'https://drive.google.com/file/d/1nNXJ3Qunbo0HuvKM9n3Zf4wgTKOVbL9W/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - Acknowledgement _Loss of certificate_XBRL',
+            link: 'https://drive.google.com/file/d/1csJLD8WOkc5MJ1WYBL59qUcZ-wGO8V5A/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - Bse intimation_certificate loss - 03741',
+            link: 'https://docs.google.com/document/d/1kdinfiP3xdwcEHIVLDfVtus9FkkZxUzR/edit?usp=drive_link&ouid=115588786680372681840&rtpof=true&sd=true',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - Bse intimation_certificate loss - 03741',
+            link: 'https://drive.google.com/file/d/1z7h7cMdlXygb3aw17tDsllmRlI6DsD8W/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - Kreon Finnancial Services Limited Mail - 3741-Issue closed',
+            link: 'https://drive.google.com/file/d/1bwqrbE6RnuRt68tYIZVMD7YfkmjqZOez/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - Kreon Finnancial Services Limited Mail - INTIMATION OF LOSS OF SHARE CERTIFICATES FOLIO 3741 for 1000 shares',
+            link: 'https://drive.google.com/file/d/1BOeGV3qnJzmq9gf0JwUVpwq2LxyspzD6/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - Kreon Finnancial Services Limited Mail - Re_ Reminder 5',
+            link: 'https://drive.google.com/file/d/1uCqZIqypQ0pTEndjqsyQV73raYXJEAR-/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - Loss of Share Certificate and Issue of Duplicate Share Certificate or Letter of Confirmation',
+            link: 'https://docs.google.com/spreadsheets/d/19R-ZOJv9SYHRCHIHRnxJ8yVZsolYu_xS/edit?usp=drive_link&ouid=115588786680372681840&rtpof=true&sd=true',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - Loss of Share certificate_3741',
+            link: 'https://drive.google.com/file/d/1wgmV6Rym6hCl3vtZobS_7D3QPKxFMuIy/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'LF 3741 Vijay kumar - Pre-Intimation-Inward-285770_RTA letter',
+            link: 'https://drive.google.com/file/d/1oxMbm6RqLu6X11r9uQNi5StR7P8AbCz5/view?usp=drive_link',
+            category_id: 'loss_issue',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'Statutory Auditor Appt_BSE Intimation_17.01.2023',
+            link: 'https://drive.google.com/file/d/1FS5czONp7cbwVY4FPhKe9-UFh2XbQyQq/view?usp=drive_link',
+            category_id: 'announcement',
+            year: '2022-2023'
+        },
+        {
+            id: '1',
+            label: 'Statutory Auditor resign_BSE Intimation_10.01.2023',
+            link: 'https://drive.google.com/file/d/12XNWyymBciMC6YodqVKR3QDKmctW3jcC/view?usp=drive_link',
+            category_id: 'announcement',
+            year: '2022-2023'
+        },
+        {
+            id: '1',
+            label: 'Announcement Under Reg 30_Auditor Appt_29.07.2023',
+            link: 'https://drive.google.com/file/d/1W-JvGXgfN8bAyRt0p7wDsRDSrFmpI3HA/view?usp=drive_link',
+            category_id: 'announcement',
+            year: '2023-2024'
+        },
+        {
+            id: '1',
+            label: 'Announcement Under Reg 30_Change in Directors_29.03.2024',
+            link: 'https://drive.google.com/file/d/1a8OqZGBSmeHq7AYCqMA7d0Yv7zFKkgo6/view?usp=drive_link',
+            category_id: 'announcement',
+            year: '2023-2024'
+        },
+        {
+            id: '1',
+            label: 'Announcement Under Reg 30_Change in Directors_06.08.2024',
+            link: 'https://drive.google.com/file/d/1LzjBrO23Lg-QC0xnMkRh-sHGPlgB3_YD/view?usp=drive_link',
+            category_id: 'announcement',
+            year: '2024-2025'
+        },
+        {
+            id: '1',
+            label: 'Announcement Under Reg 30_Change in Directors_12.09.2024',
+            link: 'https://drive.google.com/file/d/1Ir2tB5HVCNnxF_g2_L0Fu9HF8MUsspD1/view?usp=drive_link',
+            category_id: 'announcement',
+            year: '2024-2025'
+        },
+        {
+            id: '1',
+            label: 'Announcement Under Reg 30_Change in Directors_29.06.2024',
+            link: 'https://drive.google.com/file/d/1qixSHxQHay8mCQyJ7Hve03nae4YaE2AX/view?usp=drive_link',
+            category_id: 'announcement',
+            year: '2024-2025'
+        },
+        {
+            id: '1',
+            label: 'Clarification on Price Movement_05.07.2022',
+            link: 'https://drive.google.com/file/d/1w5rwJDhUjswZ-GplD-D2uQ4voZDkZj6g/view?usp=drive_link',
+            category_id: 'miscellaneous',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'Newspaper Ad_Notice for proposed Transfer of Shares_17.07.2019',
+            link: 'https://drive.google.com/file/d/1YIe6DdLDX9DJvqmGW5vH2sp7yQWw9pbI/view?usp=drive_link',
+            category_id: 'miscellaneous',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'Credit rating - Credit Rating 15.09.2022',
+            link: 'https://drive.google.com/file/d/1RNC-_6aI4_MO6yExI7ATlH1qUIzdD7gI/view?usp=drive_link',
+            category_id: 'miscellaneous',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'Credit rating - Withdrawal of credit rating by Brickworks Ratings India Private Limited_03.04.2024',
+            link: 'https://drive.google.com/file/d/1i_Ag6MyxQz3k-rB4U6tCtymKtSKeiJRy/view?usp=drive_link',
+            category_id: 'miscellaneous',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'Investor Queries - Generating awareness on availability of Dispute Resolution Mechanism at Stock Exchanges',
+            link: 'https://drive.google.com/file/d/1ultWsxavaOR80zuUQICz4CD_q_5pIOFO/view?usp=drive_link',
+            category_id: 'miscellaneous',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'Investor Queries - Information for holders of physical securities',
+            link: 'https://drive.google.com/file/d/1_nKcMeXMwV3PLD99qkBg7QxDw5H3SrzN/view?usp=drive_link',
+            category_id: 'miscellaneous',
+            year: '#'
+        },
+        {
+            id: '1',
+            label: 'Investor Queries',
+            link: 'https://drive.google.com/file/d/1MDO8sehoiqZSRF33RqGN1VNkGwatmfgi/view?usp=drive_link',
+            category_id: 'miscellaneous',
+            year: '#'
         },
     ])
     const [Records, setRecords] = useState([...RecordsOrginal])
@@ -3356,11 +3776,24 @@ const LibrarySection = () => {
         setRecords(records)
     }
 
-    // useEffect(()=>{
+    const handleYearChanger = (type)=>{
 
-    //     if(SelectedCategory || SelectedYear) filterRecords(SelectedCategory, SelectedYear)
+        let selected_year_idx = YearsList.indexOf(SelectedYear)
+    
+        if(selected_year_idx == -1) selected_year_idx= 0
 
-    // }, [SelectedCategory, SelectedYear])
+        console.log(selected_year_idx);
+        
+        
+        let year = SelectedYear
+
+        if(type == '+' && YearsList[selected_year_idx + 1]) year = YearsList[selected_year_idx + 1]
+        else if(type == '-' && YearsList[selected_year_idx - 1])  year = YearsList[selected_year_idx - 1]
+
+        setSelectedYear(year)
+
+        filterRecords(SelectedCategory, year)
+    }
 
     return (
         <div className="library-container-main">
@@ -3397,7 +3830,11 @@ const LibrarySection = () => {
                     </div>
                     <div className="library-records-main">
                         <div className="library-years-filter">
-                        <div className="filter-arrow-left" dangerouslySetInnerHTML={{__html: Icons.arrow}} ></div>
+                        <div 
+                            className="filter-arrow-left" 
+                            dangerouslySetInnerHTML={{__html: Icons.arrow}}
+                            onClick={()=> handleYearChanger('-')}
+                        ></div>
                         <div className="filter-years">
                         <div className="filter-years-items">
                             {YearsList.map((year, idx)=>(
@@ -3408,7 +3845,11 @@ const LibrarySection = () => {
                             ))}
                         </div>
                         </div>
-                        <div className="filter-arrow-right" dangerouslySetInnerHTML={{__html: Icons.arrow}} ></div>
+                        <div 
+                            className="filter-arrow-right" 
+                            dangerouslySetInnerHTML={{__html: Icons.arrow}} 
+                            onClick={()=> handleYearChanger('+')}    
+                        ></div>
                         </div>
                         <div className="library-records-container">
                             <div className="records-items">

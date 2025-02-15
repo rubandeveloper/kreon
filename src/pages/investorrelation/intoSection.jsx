@@ -17,8 +17,8 @@ const IntoSection = ({title, desc, mockup, mockupPosition, style={}}) => {
         <div className='hero-container' 
             style={{
                 backgroundImage: `url(${mockup})`,
-                backgroundPositionY: '80%',
-                backgroundSize: '100%',
+                backgroundPositionY: '60%',
+                backgroundSize: '80%',
                 height: '20vh',
                 ...style
             }}

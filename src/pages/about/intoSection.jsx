@@ -26,7 +26,8 @@ const IntoSection = ({title, desc, mockup, mockupPosition, style={}}) => {
             style={{
                 backgroundImage: `url(${mockup})`,
                 backgroundPosition: 'top',
-                backgroundPositionY: '-80%',
+                backgroundPositionY: '-130%',
+                backgroundSize: '80%',
                 height: '80vh',
                 ...style
             }}

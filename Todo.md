@@ -1,0 +1,1 @@
+ssh -i .\.ssh\id_ed25519 ubuntu@13.203.51.251

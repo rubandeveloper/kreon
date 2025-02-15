@@ -124,7 +124,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-
+    user-select: none;
     transition: all .25s;
 }
 
@@ -199,6 +199,7 @@
     border-radius: 50px;
     overflow-x: auto;
     overflow-y: hidden;
+    user-select: none;
 }
 .library-container-main .library-years-filter .filter-years::-webkit-scrollbar{
     width: 0;
@@ -289,7 +290,7 @@
     letter-spacing: -0.02em;
     text-align: left;
     text-decoration-line: underline;
-
+    user-select: none;
     color: #C3C3C3;
 
 }
